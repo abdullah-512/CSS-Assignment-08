@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+}
+
+.About{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About > li > a{
+    text-decoration: none;
+    padding-left: 85px;
+    color: #fff;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    /* background-color: black; */
+}
+.v{
+    cursor: pointer;
+}
+
+.About > li > a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.main_custom_heading-second h2 {
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.logo-text-hold{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.main_custom_heading-second {
+    text-align: center;
+}
+
+.hi{
+    /* width: 180px; */
+    object-fit: contain;
+    height: 180px;
+    background-color: #ffff;
+    padding: 0px 19px;
+    border-radius: 3px; 
+}
+
+.Get-a-Franchise{
+    width: 300;
+    color: white;
+    background-color: rgb(72, 74, 82);
+    margin: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.Oder-Online{
+    width: 300;
+    color: #fff;
+    background-color: red;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+.Oder-Online-01{
+    width: 300px;
+    color: #fff;
+    background-color: red;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+    .child-of-div-3 {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 200px;
+        margin-right: 100px;
+        margin-top: -19px;
+
+        .child {
+
+            width: 43%;
+            height: 250px;
+            margin: 50px 30px 50px 30px;
+
+        }
+
+
+        .child h3 {
+            font-family: "HankenGrotesk", sans-serif;
+            font-weight: 200;
+            color: var(--textcolor2);
+            letter-spacing: 8px;
+            margin-bottom: 0px;
+            color: red;
+
+        }
+
+        .child h2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-top: 0px;
+
+            .span-h2 {
+                font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: 70;
+            }
+
+
+        }
+
+        .child button {
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+        }
+
+        .child .branch-imgs {
+            width: 90%;
+            height: 250px;
+        }
+
+        .child .salt {
+            margin-top: -600px;
+            margin-bottom: -100px;
+            margin-left: 300px;
+            width: 350px;
+            height: 500;
+        }
+
+
+
+
+
+
+    }
+
+
+.main-div-4 {
+
+    padding-bottom: 100px;
+    color: var(--textcolor1);
+    text-align: center;
+
+    h2 {
+        font-family: "Mignon-Bold", Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 50px;
+
+        .h2-span {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 400;
+            font-size: 50px;
+        }
+
+    }
+
+    .child .branch-imgs {
+        width: 290px;
+        height: 250px;
+    }
+
+    .child-of-div-4 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+        h3 {
+            font-family: "HankenGrotesk", sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            letter-spacing: 5px;
+            color: var(--textcolor2);
+        }
+
+        h2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            font-size: 20px;
+
+        }
+
+        .span-h2 {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        span {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .child button {
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+            margin-top: 25px;
+        }
+    }
+
+    .child-of-div-4-1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+
+        h3 {
+            font-family: "HankenGrotesk", sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            letter-spacing: 5px;
+            color: var(--textcolor2);
+        }
+
+        h2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            font-size: 20px;
+
+        }
+
+        .span-h2 {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        span {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .child button {
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+            margin-top: 25px;
+        }
+
+        .child .branch-imgs {
+            width: 290px;
+            height: 250px;
+        }
+    }
+
+    .child-of-div-4-2 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+
+        h3 {
+            font-family: "HankenGrotesk", sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            letter-spacing: 5px;
+            color: var(--textcolor2);
+        }
+
+        h2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            font-size: 20px;
+
+        }
+
+        .span-h2 {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        span {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .child button {
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+            margin-top: 25px;
+        }
+
+        .child .branch-imgs {
+            width: 290px;
+            height: 250px;
+        }
+    }
+
+    .child-of-div-4-3 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+
+        h3 {
+            font-family: "HankenGrotesk", sans-serif;
+            font-weight: 100;
+            font-size: 14px;
+            letter-spacing: 5px;
+            color: var(--textcolor2);
+        }
+
+        h2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 200;
+            font-size: 20px;
+
+        }
+
+        .span-h2 {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        span {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .child button {
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+            margin-top: 25px;
+        }
+
+        .child .branch-imgs {
+            width: 290px;
+            height: 250px;
+        }
+    }
+
+
+}
+.EMPORIUM-MALL01{
+    background-color: red;
+    border-color: white;
+    border-radius: 7px;
+}
+
+.hiiii{
+    display: flex;
+    /* width: 10000px; */
+    height: 590px;
+}
+
+.geo{
+    background-color: #fff;
+    color: black;
+}
+
+.ki{
+    text-align: center;
+}
+
+
+.main-div-6 {
+    padding-bottom: 100px;
+    color: var(--textcolor1);
+    text-align: center;
+
+    h1 {
+        font-family: "Mignon-Bold", Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 50px;
+
+        span {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 400;
+            font-size: 60px;
+        }
+
+        .two {
+            font-family: "Mignon-Bold", Georgia, 'Times New Roman', Times, serif;
+            font-size: 30px;
+            font-weight: 100;
+        }
+    }
+
+    .child-of-div-6 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+        .child {
+            background-color: var(--bgcolor4);
+            color: var(--bgcolor2);
+            height: 250px;
+            width: 400px;
+            padding-top: 20px;
+
+            border-radius: 6px;
+                background-color: #fff;
+    color: #000;
+        }
+
+        p {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+            color: var(--textcolor2);
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-1 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+                background-color: #fff;
+    color: #000;
+        }
+
+        span {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        img{
+                background-color: #fff;
+        }
+    }
+
+    .child-of-div-6-1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+        .child {
+            background-color: var(--bgcolor4);
+            color: var(--bgcolor2);
+            height: 250px;
+            width: 400px;
+            padding-top: 20px;
+
+            border-radius: 6px;
+                background-color: #fff;
+    color: #000;
+        }
+
+        p {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+            color: var(--textcolor2);
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-1 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+                background-color: #fff;
+    color: #000;
+        }
+
+        span {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        img{
+                color: #000;
+        }
+    }
+
+    .child-of-div-6-2 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 100px;
+        list-style: none;
+
+        .child {
+            background-color: var(--bgcolor4);
+            color: var(--bgcolor2);
+            height: 250px;
+            width: 400px;
+            padding-top: 20px;
+
+            border-radius: 6px;
+            background-color: #fff;
+            color: #000;
+        }
+
+        p {
+            font-family: "ApercuMonoProLight", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+            color: var(--textcolor2);
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-1 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+                background-color: #fff;
+    color: #000;
+        }
+
+        span {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        .h3-2 {
+            font-family: "Futura", sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 100;
+                background-color: #fff;
+    color: #000;
+        }
+
+        img{
+                background-color: #fff;
+    color: #000;
+        }
+    }
+}
+
+.by{
+        background-color: #fff;
+    color: #000;
+}
+
+.kk{
+                background-color: #fff;
+    color: #000;
+}
+
+.Oder-Online:hover{
+    background-color: rgba(255, 0, 0, 0.705);
+}
+.Get-a-Franchise:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.Oder-Online-01:hover{
+    background-color: rgba(255, 37, 37, 0.638);
+}
+
+.footer-section{
+    padding: 20px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-information{
+    min-width: 250px;
+    width: 23%;
+}
+
+.footer-information p{
+    padding-top: 20px;
+    /* text-align: justify; */
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.footer-information span{
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.footer-links ul li{
+    list-style: none;
+    padding-bottom: 8px;
+
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer-links ul{
+    padding: 0;
+}
+
+.footer-div h3{
+    font-weight: 500;
+}
+
+.contact-us{
+    width: 23%;
+}
+
+.contact-us p{
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.footer-heading{
+
+}
+
+.noman{
+    color: red;
+    /* background: #fff; */
+    font-size: 40px;
+}
